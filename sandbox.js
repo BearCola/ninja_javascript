@@ -1,21 +1,6 @@
-console.log(true, false, "true", "false");
+let age = 25; 
 
-let email = "luigi@thenetninja.co.uk";
-let names = ['mario', 'luigi', 'toad'];
-
-// let result = email.includes("@");
-let result = names.includes('luigi');
-
-// console.log(result);
-
-let age = 25;
-console.log(age == 25);
-console.log(age == 30);
-console.log(age != 30);
-
-let name = 'shaun';
-
-console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal');
-console.log(name > 'Shaun');
+console.log(age === 25);
+console.log(age === "25");
+console.log(age !== 25);
+console.log(age !== "25");
